@@ -1,0 +1,17 @@
+---
+s3cmd_user: user
+s3cmd_secret_key: $3cr3t
+s3cmd_location: US
+s3cmd_host_base: s3.amazonaws.com
+s3cmd_host_bucket: %(bucket)s.s3.amazonaws.com
+
+s3cmd_cloudfront_host: cloudfront.amazonaws.com
+s3cmd_multipart_chunk_size_mb: 15
+s3cmd_multipart_max_chunks: 10000
+s3cmd_recv_chunk: 65536
+s3cmd_send_chunk: 65536
+s3cmd_simpledb_host: sdb.amazonaws.com
+s3cmd_socket_timeout: 300
+s3cmd_throttle_max: 100
+s3cmd_website_endpoint: http://%(bucket)s.s3-website-%(location)s.amazonaws.com/
+s3cmd_website_index: index.html

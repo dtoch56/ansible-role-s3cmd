@@ -1,0 +1,12 @@
+---
+- name: Install s3cmd
+  pip:
+    name: s3cmd
+
+- name: Template s3cmd config
+  ansible.builtin.template:
+    src: s3cmd/s3cfg.j2
+    dest: /root/.s3cfg
+    owner: root
+    group: root
+    mode: '0700'
