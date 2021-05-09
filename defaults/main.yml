@@ -1,6 +1,7 @@
 ---
 s3cmd_user: user
 s3cmd_secret_key: $3cr3t
+s3cmd_access_key:
 s3cmd_location: US
 s3cmd_host_base: s3.amazonaws.com
 s3cmd_host_bucket: '%(bucket)s.s3.amazonaws.com'
