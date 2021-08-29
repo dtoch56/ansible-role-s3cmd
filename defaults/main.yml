@@ -1,4 +1,7 @@
 ---
+pip_get_pip_version: latest
+pip_executable: "pip"
+
 s3cmd_access_key: user
 s3cmd_secret_key: $3cr3t
 s3cmd_access_token:
