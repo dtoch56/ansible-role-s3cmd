@@ -1,6 +1,4 @@
 ---
-- ansible.builtin.include: pip.yml
-
 - name: Install s3cmd
   ansible.builtin.pip:
     name: s3cmd
